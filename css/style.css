@@ -28,8 +28,14 @@ h2 {
 .intro {
   font-family: "Yeseva One", cursive;
   max-width: 50%;
+  min-width: 600px;
   background: black;
   padding: 50px;
+}
+.light{
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
 }
 main {
   display: flex;
