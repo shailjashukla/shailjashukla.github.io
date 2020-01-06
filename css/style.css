@@ -28,7 +28,8 @@ h2 {
 .intro {
   font-family: "Yeseva One", cursive;
   max-width: 50%;
-  background: pink;
+  background: black;
+  padding: 50px;
 }
 main {
   display: flex;
