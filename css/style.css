@@ -43,3 +43,9 @@ main {
   justify-content: center;
   min-height: 100vh;
 }
+em{
+  text-decoration: upperline;
+}
+a{
+  color: pink;
+}
