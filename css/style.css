@@ -1,25 +1,38 @@
-body{
-  background: black url("https://cdn.glitch.com/523d0847-00b7-4039-ae72-b77b6091dffb%2Fbg.jpeg?v=1578330205569") no-repeat center top;
+body {
+  background: black
+    url("https://cdn.glitch.com/523d0847-00b7-4039-ae72-b77b6091dffb%2Fbg.jpeg?v=1578330205569")
+    no-repeat center top;
   background-size: contain cover;
   color: white;
   font-size: 24px;
-}
-body {
- font-family: 'Lora', serif;
+  font-family: "Lora", serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
- font-family: 'Montserrat', sans-serif;
-  font-family: 'Titillium Web', sans-serif;
-  font-family: 'Vollkorn', serif;
- font-weight: 300;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Titillium Web", sans-serif;
+  font-family: "Vollkorn", serif;
+  font-weight: 300;
 }
-h1{
+h1 {
   font-size: 4rem;
 }
-h2{
-  font-family: 'Titillium Web', sans-serif;
+h2 {
+  font-family: "Titillium Web", sans-serif;
 }
-.intro{
-  font-family: 'Yeseva One', cursive;
+.intro {
+  font-family: "Yeseva One", cursive;
+  max-width: 50%;
+  background: pink;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
